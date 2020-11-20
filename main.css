@@ -7,63 +7,155 @@
   }
 /*Main section */
 
-
-  .container-1{
+.container-1{
     height:100vh;
-    background-color: blue;
+    background-color: #0b6491;
     background-image: url('images/huluBackground.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     text-align: center;
+}
 
+.logInButton {
+  align-self: flex-end;
+  bottom: 600px;
+  left: 600px;
+  background: transparent;
+  border:none;
+  color: #fff;
+  font-size:14px;
+  font-weight: bold;
+  margin: 35px;
+  cursor: pointer;
+}
+
+.main{
+  margin: 40px;
+  align-self: center;
+}
+
+.main-image{
+  height: 90px;
+  width: 275px;
+  margin-top: 10px;
 }
 
 #para1{
-color:#2dbd9d;
-padding-bottom: 8px;
-font-family: arial;
-font-weight: 600;
-
+  color:#2dbd9d;
+  padding-bottom: 8px;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 #para2{
-color:#fff;
-margin: 20px 121px 0px;
-font-family: arial;
-font-size: 14px;
-
+  color:#fff;
+  margin: 20px 121px 0px;
+  font-family: arial;
+  font-size: 14px;
 }
-
-
 
 .container-1 h2{
-color: #fff;
-font-family: arial;
-}
-
-  .container-2{
-    height: 80vh;
-    background-color: black;
-    background-image: url('images/huluSecondView.jpg');
-    background-position:center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  color: #fff;
+  font-family:  Arial, Helvetica, sans-serif;
 }
 
 .startButton{
     padding: 20px 30px;
-    margin:25px;
+    margin: 40px auto 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     font-weight:bold;
     background-color: #fff;
     border-radius:5px;
     border: none;
     cursor: pointer;
-   
+    width: 275px;
+  
+}
+
+.startButton a{
+  text-decoration: none;
+  color:#000;
 }
 
 .startButton:hover{
-    opacity: .8;
+  opacity: .8;
 }
- 
+
+.disclaimer{
+  font-size: 10px;
+  color: #fff;
+  opacity: .8;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.banner{
+  width: 100%;
+  height: 150px;
+  display:flex;
+  background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+  align-items: center;
+  justify-content: space-around;
+} 
+
+.section1{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -150px;
+}
+
+#para3{
+  font-size: 12px;
+  font-weight: bold;
+  color:#2dbd9d;
+  padding: 5px 0px;
+}
+
+#para4{
+  font-size: 24px;
+  color: #fff;
+  padding: 5px 0px;
+}
+
+#detail{
+  color: #fff;
+}
+
+.section2{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+#btn-1{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 15px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #fff;
+  margin-top: 25px;
+}
+
+#btn-2{
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.container-2{
+  height: 80vh;
+  background-color:#000;
+  background-image: url('images/huluSecondView.jpg');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
