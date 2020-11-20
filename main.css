@@ -1,0 +1,69 @@
+ /* Page Set up */
+
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+/*Main section */
+
+
+  .container-1{
+    height:100vh;
+    background-color: blue;
+    background-image: url('images/huluBackground.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#para1{
+color:#2dbd9d;
+padding-bottom: 8px;
+font-family: arial;
+font-weight: 600;
+
+}
+
+#para2{
+color:#fff;
+margin: 20px 121px 0px;
+font-family: arial;
+font-size: 14px;
+
+}
+
+
+
+.container-1 h2{
+color: #fff;
+font-family: arial;
+}
+
+  .container-2{
+    height: 80vh;
+    background-color: black;
+    background-image: url('images/huluSecondView.jpg');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.startButton{
+    padding: 20px 30px;
+    margin:25px;
+    font-weight:bold;
+    background-color: #fff;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.startButton:hover{
+    opacity: .8;
+}
+ 
